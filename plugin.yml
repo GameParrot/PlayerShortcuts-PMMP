@@ -1,0 +1,14 @@
+name: PlayerShortcuts
+main: GameParrot\PlayerShortcuts\Main
+src-namespace-prefix: GameParrot\PlayerShortcuts
+version: 1.0.0
+api: 5.0.0
+load: POSTWORLD
+author: GameParrot
+description: This plugin adds shortcuts for players in commands like @s
+website: https://github.com/GameParrot/PlayerShortcuts-PMMP
+
+permissions:
+ playershortcuts.use:
+  default: op
+  description: "Allows the use of player shortcuts"
